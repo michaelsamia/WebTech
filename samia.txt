@@ -1,0 +1,2126 @@
+commit b08ae8811573fd32a3eea5d15cadb7287fd9529f
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:16:56 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:16:56 +0800
+
+    portfolio.html
+
+diff --git a/emmet-laboratory/portfolio.html b/emmet-laboratory/portfolio.html
+new file mode 100644
+index 0000000..b0f9518
+--- /dev/null
++++ b/emmet-laboratory/portfolio.html
+@@ -0,0 +1,89 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Student Portfolio Page</title>
++</head>
++<body>
++
++    <header>
++        <h1>Michael Jarred K. Samia</h1>
++        <p>BSIT Student & Developer</p>
++        <nav>
++            <ul>
++                <li><a href="#home">Home</a></li>
++                <li><a href="#about">About</a></li>
++                <li><a href="#skills">Skills</a></li>
++                <li><a href="#projects">Projects</a></li>
++                <li><a href="#contact">Contact</a></li>
++            </ul>
++        </nav>
++    </header>
++
++    <main>
++        <section id="about">
++            <h2>About Me</h2>
++            <p>Hello! I am an Information Technology student specializing in Web Technology at the University of the Cordilleras. I enjoy building web applications, learning modern development techniques, and working on workflow automation.</p>
++            <img src="../images/profile.jpg" alt="Profile Photo" width="200">
++        </section>
++
++        <section id="skills">
++            <h2>Skills</h2>
++            <ul>
++                <li>HTML & CSS</li>
++                <li>JavaScript</li>
++                <li>Java</li>
++                <li>SQL Database Management</li>
++                <li>Git & GitHub</li>
++            </ul>
++        </section>
++
++        <section id="projects">
++            <h2>Projects</h2>
++            
++            <article class="project-card">
++                <h3>Personal Portfolio Website</h3>
++                <p>A multi-page HTML site showcasing my web development coursework.</p>
++                <a href="https://github.com/michaelsamia/WebTech" target="_blank">View Project</a>
++            </article>
++            <br>
++            <article class="project-card">
++                <h3>Emmet Shortcuts Lab</h3>
++                <p>A series of exercises practicing rapid HTML markup generation in VS Code.</p>
++                <a href="https://github.com/michaelsamia/WebTech" target="_blank">View Project</a>
++            </article>
++            <br>
++            <article class="project-card">
++                <h3>Database Management System</h3>
++                <p>An ERD design and relational schema implementation for academic records.</p>
++                <a href="https://github.com/michaelsamia" target="_blank">View Project</a>
++            </article>
++        </section>
++
++        <section id="contact">
++            <h2>Contact</h2>
++            <form action="">
++                <label>Name:</label><br>
++                <input type="text" placeholder="Your name" required><br><br>
++
++                <label>Email:</label><br>
++                <input type="email" placeholder="Your email" required><br><br>
++
++                <label>Subject:</label><br>
++                <input type="text" placeholder="Subject" required><br><br>
++
++                <label>Message:</label><br>
++                <textarea rows="5" cols="30" placeholder="Your message..." required></textarea><br><br>
++
++                <button type="submit">Submit</button>
++            </form>
++        </section>
++    </main>
++
++    <footer>
++        <p>© 2026 - Michael Jarred K. Samia</p>
++    </footer>
++
++</body>
++</html>
+
+commit 3453ee7a787c7058cc6c14c97245bf82c92cbe7a
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:15:37 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:15:37 +0800
+
+    05-semantic.html
+
+diff --git a/emmet-laboratory/05-semantic.html b/emmet-laboratory/05-semantic.html
+new file mode 100644
+index 0000000..77a27ce
+--- /dev/null
++++ b/emmet-laboratory/05-semantic.html
+@@ -0,0 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Semantic HTML</title>
++</head>
++<body>
++
++    <header>
++        <h1>Semantic HTML Example</h1>
++        <nav>
++            <ul>
++                <li><a href="#">Menu 1</a></li>
++                <li><a href="#">Menu 2</a></li>
++                <li><a href="#">Menu 3</a></li>
++                <li><a href="#">Menu 4</a></li>
++            </ul>
++        </nav>
++    </header>
++
++    <main>
++        <section>
++            <article>
++                <h2>Article Heading</h2>
++                <p>This is the main content of the article section using semantic tags.</p>
++            </article>
++            <aside>
++                <h3>Related Information</h3>
++                <p>Sidebar content goes here.</p>
++            </aside>
++        </section>
++    </main>
++
++    <footer>
++        <p>© 2026 - All Rights Reserved</p>
++    </footer>
++
++</body>
++</html>
+
+commit fe893df4024546168ffccde60f30725d6cace2ce
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:15:07 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:15:07 +0800
+
+    04-form.html
+
+diff --git a/emmet-laboratory/04-form.html b/emmet-laboratory/04-form.html
+new file mode 100644
+index 0000000..a62ae28
+--- /dev/null
++++ b/emmet-laboratory/04-form.html
+@@ -0,0 +1,61 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Student Registration Form</title>
++</head>
++<body>
++
++    <h1>Student Registration Form</h1>
++
++    <form action="">
++        <div>
++            <label>Student ID:</label><br>
++            <input type="text" placeholder="e.g. 25-6626-254" required>
++        </div>
++        <br>
++        <div>
++            <label>Full Name:</label><br>
++            <input type="text" placeholder="Enter your full name" required>
++        </div>
++        <br>
++        <div>
++            <label>Email:</label><br>
++            <input type="email" placeholder="Enter your email" required>
++        </div>
++        <br>
++        <div>
++            <label>Password:</label><br>
++            <input type="password" required>
++        </div>
++        <br>
++        <div>
++            <label>Gender:</label><br>
++            <input type="radio" name="gender" value="male"> Male
++            <input type="radio" name="gender" value="female"> Female
++        </div>
++        <br>
++        <div>
++            <label>Course:</label><br>
++            <input type="text" value="BSIT - Web Technology" required>
++        </div>
++        <br>
++        <div>
++            <label>Hobbies:</label><br>
++            <input type="checkbox" name="hobby" value="skating"> Inline Skating
++            <input type="checkbox" name="hobby" value="gaming"> Gaming
++        </div>
++        <br>
++        <div>
++            <label>Address:</label><br>
++            <textarea rows="4" cols="30" placeholder="Enter your address"></textarea>
++        </div>
++        <br>
++        <div>
++            <button type="submit">Submit Registration</button>
++        </div>
++    </form>
++
++</body>
++</html>
+
+commit a6596d9e6b7dbf3251fe1411e6176efd3b9cfcb7
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:14:20 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:14:20 +0800
+
+    Create 03-navigation.html
+
+diff --git a/emmet-laboratory/03-navigation.html b/emmet-laboratory/03-navigation.html
+new file mode 100644
+index 0000000..dcc0345
+--- /dev/null
++++ b/emmet-laboratory/03-navigation.html
+@@ -0,0 +1,21 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Navigation</title>
++</head>
++<body>
++
++    <nav>
++        <ul>
++            <li><a href="#home">Home</a></li>
++            <li><a href="#about">About</a></li>
++            <li><a href="#portfolio">Portfolio</a></li>
++            <li><a href="#services">Services</a></li>
++            <li><a href="#contact">Contact</a></li>
++        </ul>
++    </nav>
++
++</body>
++</html>
+
+commit ab4b018bf0e4cd4820ce1015c81ddcf013b27e54
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:13:34 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:13:34 +0800
+
+    02-classes-ids.html
+
+diff --git a/emmet-laboratory/02-classes-ids.html b/emmet-laboratory/02-classes-ids.html
+new file mode 100644
+index 0000000..d32dd4f
+--- /dev/null
++++ b/emmet-laboratory/02-classes-ids.html
+@@ -0,0 +1,23 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Classes and IDs</title>
++</head>
++<body>
++
++    <header class="site-header">
++        <h1>Classes and IDs</h1>
++    </header>
++
++    <nav id="main-nav"></nav>
++
++    <main class="content">
++        <section id="about"></section>
++    </main>
++
++    <footer class="site-footer"></footer>
++
++</body>
++</html>
+
+commit bd1340ff3cb97ff5da074dbf7aef7a0189df8a4a
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:12:55 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:12:55 +0800
+
+    01-basic.html
+    
+    2
+
+diff --git a/emmet-laboratory/01-basic.html b/emmet-laboratory/01-basic.html
+new file mode 100644
+index 0000000..f1b5262
+--- /dev/null
++++ b/emmet-laboratory/01-basic.html
+@@ -0,0 +1,34 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Basic Emmet Shortcuts</title>
++</head>
++<body>
++
++    <header>
++        <h1>My Web Development Journey</h1>
++        <h2>Part 1</h2>
++        <h2>Part 2</h2>
++    </header>
++
++    <nav>
++        <p>Navigation Menu</p>
++    </nav>
++
++    <main>
++        <section>
++            <p>Paragraph 1</p>
++            <p>Paragraph 2</p>
++            <p>Paragraph 3</p>
++            <div></div>
++        </section>
++    </main>
++
++    <footer>
++        <p>Footer Content</p>
++    </footer>
++
++</body>
++</html>
+
+commit 82ac160f09e7d400ff768296ad1b77526ff8fead
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:11:37 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:11:37 +0800
+
+    index.html
+    
+    1
+
+diff --git a/emmet-laboratory/index.html b/emmet-laboratory/index.html
+new file mode 100644
+index 0000000..aa0c079
+--- /dev/null
++++ b/emmet-laboratory/index.html
+@@ -0,0 +1,14 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Emmet Laboratory</title>
++</head>
++<body>
++
++    <h1>Emmet Laboratory</h1>
++    <p>Testing Emmet boilerplate setup.</p>
++
++</body>
++</html>
+
+commit 19544218935718a01aa4190b48d41228678c224d
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:07:26 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:07:26 +0800
+
+    audio.mp3
+
+diff --git a/media/Aylex - Life is Beautiful (freetouse.com).mp3 b/media/Aylex - Life is Beautiful (freetouse.com).mp3
+deleted file mode 100644
+index efb69db..0000000
+Binary files a/media/Aylex - Life is Beautiful (freetouse.com).mp3 and /dev/null differ
+diff --git a/media/audio.mp3 b/media/audio.mp3
+new file mode 100644
+index 0000000..d3f5a12
+--- /dev/null
++++ b/media/audio.mp3
+@@ -0,0 +1 @@
++
+
+commit 313634f8f9120a7d92d839cc432e10204c9c770d
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:07:06 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:07:06 +0800
+
+    video.mp4
+
+diff --git a/media/video.mp4 b/media/video.mp4
+new file mode 100644
+index 0000000..d3f5a12
+--- /dev/null
++++ b/media/video.mp4
+@@ -0,0 +1 @@
++
+diff --git a/media/video_preview_h264.mp4 b/media/video_preview_h264.mp4
+deleted file mode 100644
+index dcf1a9a..0000000
+Binary files a/media/video_preview_h264.mp4 and /dev/null differ
+
+commit 22449e3266848b08e1b4ea984d3a2eb81019f877
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 01:06:12 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 01:06:12 +0800
+
+    Add files via upload
+
+diff --git a/media/Aylex - Life is Beautiful (freetouse.com).mp3 b/media/Aylex - Life is Beautiful (freetouse.com).mp3
+new file mode 100644
+index 0000000..efb69db
+Binary files /dev/null and b/media/Aylex - Life is Beautiful (freetouse.com).mp3 differ
+diff --git a/media/video_preview_h264.mp4 b/media/video_preview_h264.mp4
+new file mode 100644
+index 0000000..dcf1a9a
+Binary files /dev/null and b/media/video_preview_h264.mp4 differ
+
+commit 065c1dd73359f5d6b7adf79d444558a6c5d9e89f
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:59:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:59:40 +0800
+
+    profile.jpg
+
+diff --git a/images/2x2.jpg b/images/profile.jpg
+similarity index 100%
+rename from images/2x2.jpg
+rename to images/profile.jpg
+
+commit 88252c66d6a67c93f428f30bab0950fe2e1c749a
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:59:18 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:59:18 +0800
+
+    profile.jpg
+
+diff --git a/images/2x2.jpg b/images/2x2.jpg
+new file mode 100644
+index 0000000..1fb163d
+Binary files /dev/null and b/images/2x2.jpg differ
+
+commit 3aa1ace5f35f8b7a3f75831cb527cf7c40849303
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:58:44 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:58:44 +0800
+
+    hobby.jpg
+
+diff --git a/images/hobby.jpg b/images/hobby.jpg
+new file mode 100644
+index 0000000..d3f5a12
+--- /dev/null
++++ b/images/hobby.jpg
+@@ -0,0 +1 @@
++
+diff --git a/images/valo.png b/images/valo.png
+deleted file mode 100644
+index 0cf17fd..0000000
+Binary files a/images/valo.png and /dev/null differ
+
+commit f10a728ee2926384342fb18ada1c2657b78adc05
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:58:04 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:58:04 +0800
+
+    Add files via upload
+
+diff --git a/images/valo.png b/images/valo.png
+new file mode 100644
+index 0000000..0cf17fd
+Binary files /dev/null and b/images/valo.png differ
+
+commit cc47dfe8242ebc0dd4e79ce0de65581f261e7561
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:53:33 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:53:33 +0800
+
+    contact.html
+
+diff --git a/MY-PORTFOLIO/contact.html b/MY-PORTFOLIO/contact.html
+new file mode 100644
+index 0000000..6cc5ed8
+--- /dev/null
++++ b/MY-PORTFOLIO/contact.html
+@@ -0,0 +1,61 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Contact Me</title>
++</head>
++<body>
++
++    <header>
++        <h1>Contact Me</h1>
++    </header>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="education.html">EDUCATION</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>Get In Touch</h2>
++                <p>If you want to discuss web development or collaborate on a project, send me a message!</p>
++
++                <form action="">
++                    <label>Name:</label>
++                    <br>
++                    <input type="text" placeholder="Your full name" required>
++                    <br><br>
++                    
++                    <label>Student ID (Optional):</label>
++                    <br>
++                    <input type="text" placeholder="e.g. 25-6626-254">
++                    <br><br>
++
++                    <label>Email:</label>
++                    <br>
++                    <input type="email" placeholder="example@email.com" required>
++                    <br><br>
++
++                    <label>Message:</label>
++                    <br>
++                    <textarea rows="5" cols="40" placeholder="Type your message here..." required></textarea>
++                    <br><br>
++
++                    <button type="submit">Send Message</button>
++                    <button type="reset">Clear Form</button>
++                </form>
++            </article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Created by Michael Jarred K. Samia</p>
++    </footer>
++
++</body>
++</html>
+
+commit 0d9a5e3745dd1179ad1fca342927edfc4477e483
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:52:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:52:40 +0800
+
+    skills.html
+
+diff --git a/MY-PORTFOLIO/skills.html b/MY-PORTFOLIO/skills.html
+new file mode 100644
+index 0000000..bf70abb
+--- /dev/null
++++ b/MY-PORTFOLIO/skills.html
+@@ -0,0 +1,49 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Skills</title>
++</head>
++<body>
++
++    <header>
++        <h1>My Skills</h1>
++    </header>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="education.html">EDUCATION</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>Technical Proficiency</h2>
++                <ul>
++                    <li>HTML & CSS</li>
++                    <li>JavaScript and Java</li>
++                    <li>SQL Database Management</li>
++                    <li>Cisco Networking</li>
++                    <li>AI Workflow Automation (Make.com, Zapier, n8n)</li>
++                </ul>
++
++                <h2>Tools & Platforms</h2>
++                <ul>
++                    <li>Framer and Figma</li>
++                    <li>GitHub</li>
++                    <li>ChatGPT, Claude, and Gemini APIs</li>
++                </ul>
++            </article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Created by Michael Jarred K. Samia</p>
++    </footer>
++
++</body>
++</html>
+
+commit 0994169917bd69fce5275d551bc195e712465b7d
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:52:05 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:52:05 +0800
+
+    education.html
+
+diff --git a/MY-PORTFOLIO/education.html b/MY-PORTFOLIO/education.html
+new file mode 100644
+index 0000000..d284586
+--- /dev/null
++++ b/MY-PORTFOLIO/education.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Education</title>
++</head>
++<body>
++
++    <header>
++        <h1>My Education</h1>
++    </header>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="education.html">EDUCATION</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>Educational Background</h2>
++                
++                <table border="1">
++                    <tr>
++                        <th>Level</th>
++                        <th>School Name</th>
++                        <th>Status</th>
++                    </tr>
++                    <tr>
++                        <td>College</td>
++                        <td>University of the Cordilleras</td>
++                        <td>Second Year (BSIT)</td>
++                    </tr>
++                    <tr>
++                        <td>Senior High School</td>
++                        <td>Mangatarem National High School</td>
++                        <td>Graduated 2025 (HUMSS)</td>
++                    </tr>
++                </table>
++
++                <p>Visit the official <a href="https://www.uc-bcf.edu.ph" target="_blank">University of the Cordilleras Website</a>.</p>
++            </article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Created by Michael Jarred K. Samia</p>
++    </footer>
++
++</body>
++</html>
+
+commit 78f656e646bdbca05d094c218d535e20ad8c4ca8
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:51:09 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:51:09 +0800
+
+    about.html
+
+diff --git a/MY-PORTFOLIO/about.html b/MY-PORTFOLIO/about.html
+new file mode 100644
+index 0000000..0031f61
+--- /dev/null
++++ b/MY-PORTFOLIO/about.html
+@@ -0,0 +1,45 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>About Me</title>
++</head>
++<body>
++
++    <header>
++        <h1>About Me</h1>
++    </header>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="education.html">EDUCATION</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>Who am I?</h2>
++                <p>My name is Michael. I am currently living in Baguio City and pursuing my degree in Information Technology.</p>
++                
++                <h2>My Hobbies</h2>
++                <ul>
++                    <li>Inline skating at Burnham Park</li>
++                    <li>Playing video games like Valorant and Minecraft</li>
++                    <li>Exploring local coffee shops and trying matcha</li>
++                </ul>
++
++                <p>Learn more about <a href="https://en.wikipedia.org/wiki/Baguio" target="_blank">Baguio City</a>.</p>
++            </article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Created by Michael Jarred K. Samia</p>
++    </footer>
++
++</body>
++</html>
+
+commit 37e124d04ec63e562555c1bf3367198a8c13508a
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:50:21 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:50:21 +0800
+
+    index.html
+
+diff --git a/MY-PORTFOLIO/index.html b/MY-PORTFOLIO/index.html
+index 8b13789..ade22f8 100644
+--- a/MY-PORTFOLIO/index.html
++++ b/MY-PORTFOLIO/index.html
+@@ -1 +1,41 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Personal Web Portfolio</title>
++</head>
++<body>
+ 
++    <header>
++        <h1>My Personal Web Portfolio</h1>
++    </header>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="education.html">EDUCATION</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>Welcome to My Portfolio</h2>
++                
++                <img src="images/profile.jpg" alt="Michael Jarred K. Samia" width="250">
++                
++                <p>Hello! I am Michael Jarred K. Samia, an Information Technology student.</p>
++                <p>This is my final laboratory project for our Web Technologies class. Feel free to explore my pages to learn more about my education, skills, and how to contact me.</p>
++                <p>Check out my <a href="https://github.com/michaelsamia" target="_blank">GitHub Profile</a> to see my other coding projects.</p>
++            </article>
++        </section>
++    </main>
++
++    <footer>
++        <p>Created by Michael Jarred K. Samia</p>
++    </footer>
++
++</body>
++</html>
+
+commit aa4902b297e937d8557d9020f3acd6f304ab7666
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:48:34 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:48:34 +0800
+
+    index.html
+    
+    task 11 (final)
+
+diff --git a/MY-PORTFOLIO/index.html b/MY-PORTFOLIO/index.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/MY-PORTFOLIO/index.html
+@@ -0,0 +1 @@
++
+
+commit 274d5f30d5ebae3e39ab2261de655f4d8b4aae34
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:45:23 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:45:23 +0800
+
+    contact.html
+    
+    task 10
+
+diff --git a/contact.html b/contact.html
+new file mode 100644
+index 0000000..f6bf5df
+--- /dev/null
++++ b/contact.html
+@@ -0,0 +1,46 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Contact Me</title>
++</head>
++<body>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <hr>
++
++    <h1>Contact Me</h1>
++
++    <form action="">
++        <label>Name:</label>
++        <br>
++        <input type="text" required>
++        <br><br>
++
++        <label>Email:</label>
++        <br>
++        <input type="email" required>
++        <br><br>
++
++        <label>Subject:</label>
++        <br>
++        <input type="text" required>
++        <br><br>
++
++        <label>Message:</label>
++        <br>
++        <textarea rows="5" cols="30" required></textarea>
++        <br><br>
++
++        <button type="submit">Submit</button>
++    </form>
++
++</body>
++</html>
+
+commit 6eec2c5f4467f1866c107e1569a1e06eced504b3
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:44:37 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:44:37 +0800
+
+    skills.html
+    
+    task 10
+
+diff --git a/skills.html b/skills.html
+new file mode 100644
+index 0000000..6fdcdd1
+--- /dev/null
++++ b/skills.html
+@@ -0,0 +1,55 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My Skills</title>
++</head>
++<body>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <hr>
++
++    <h1>My Technical Skills</h1>
++    
++    <table border="1">
++        <tr>
++            <th>Skill</th>
++            <th>Level</th>
++            <th>Experience</th>
++        </tr>
++        <tr>
++            <td>HTML & CSS</td>
++            <td>Intermediate</td>
++            <td>1 year</td>
++        </tr>
++        <tr>
++            <td>JavaScript</td>
++            <td>Beginner</td>
++            <td>6 months</td>
++        </tr>
++        <tr>
++            <td>Java</td>
++            <td>Beginner</td>
++            <td>6 months</td>
++        </tr>
++        <tr>
++            <td>SQL Database</td>
++            <td>Beginner</td>
++            <td>6 months</td>
++        </tr>
++        <tr>
++            <td>AI Integrations (Make.com, Zapier)</td>
++            <td>Intermediate</td>
++            <td>1 year</td>
++        </tr>
++    </table>
++
++</body>
++</html>
+
+commit 56959dbf0b32815aa7aa26b6584c5a0a8b56a3c5
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:43:31 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:43:31 +0800
+
+    about.html
+    
+    task 10
+
+diff --git a/about.html b/about.html
+new file mode 100644
+index 0000000..034701e
+--- /dev/null
++++ b/about.html
+@@ -0,0 +1,43 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>About Me</title>
++</head>
++<body>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <hr>
++
++    <h1>About Me</h1>
++
++    <h2>Personal Introduction</h2>
++    <p>Hi, I'm Michael. I am currently studying at the University of the Cordilleras.</p>
++    
++    <h2>Educational Background</h2>
++    <ul>
++        <li>Senior High School: Mangatarem National High School</li>
++        <li>College: University of the Cordilleras (BSIT)</li>
++    </ul>
++
++    <h2>Career Goals</h2>
++    <p>My goal is to become a professional web developer and automation specialist, building seamless systems and AI-driven solutions.</p>
++
++    <h2>Hobbies & Interests</h2>
++    <ul>
++        <li>Inline skating at Burnham Park</li>
++        <li>Playing Valorant and Minecraft</li>
++        <li>Exploring local coffee shops</li>
++    </ul>
++    
++    <img src="images/hobby.jpg" alt="My Hobbies" width="250">
++
++</body>
++</html>
+
+commit 457a3c8304d8d92d626eee0508374b076f44b42e
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:42:30 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:42:30 +0800
+
+    index.html
+    
+    task 1 (old) task 10 (new)
+
+diff --git a/index.html b/index.html
+index 3153e5b..4cc3775 100644
+--- a/index.html
++++ b/index.html
+@@ -3,28 +3,25 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>My First Web Page</title>
++    <title>Home - Personal Profile</title>
+ </head>
+ <body>
+ 
+-    <h1>MY PERSONAL PAGE</h1>
+-
+-    <h2>Michael Jarred K. Samia</h2>
+-    <p>Bachelor of Science in Information Technology</p>
+-
+-    <hr>
+-
+-    <h2>About Me</h2>
+-    <p>I am a student interested in web development and learning how to build simple websites using HTML tags.</p>
+-    <p>I am currently studying IT and practicing basic programming concepts step by step.</p>
+-    <p>My goal is to finish my studies and improve my skills in creating clean and functional web pages.</p>
+-
+-    <h2>My Hobbies</h2>
+-    <p>I enjoy programming, gaming, and outdoor activities like inline skating.</p>
+-
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="skills.html">SKILLS</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++    
+     <hr>
+ 
+-    <p>Thank you for visiting my simple personal webpage!</p>
++    <h1>Welcome to My Personal Portfolio</h1>
++    
++    <img src="images/profile.jpg" alt="Michael Jarred K. Samia" width="200">
++    
++    <h2>Michael Jarred K. Samia</h2>
++    <p>Hello! I am a second-year BSIT student specializing in Web Technology. Welcome to my personal website where I showcase my lab activities and coding progress.</p>
+ 
+ </body>
+ </html>
+
+commit aba04b7c1768fbeb4d799cbed93dd20ec6d3ecbf
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:40:17 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:40:17 +0800
+
+    multimedia.html
+    
+    task 9
+
+diff --git a/multimedia.html b/multimedia.html
+index 8b13789..54d3e8b 100644
+--- a/multimedia.html
++++ b/multimedia.html
+@@ -1 +1,34 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Multimedia</title>
++</head>
++<body>
+ 
++    <h1>Lab Activity 9: Multimedia</h1>
++
++    <h2>1. Image</h2>
++    <img src="images/profile.jpg" alt="Profile Picture" width="200">
++    <br><br>
++
++    <h2>2. Audio with Controls</h2>
++    <audio controls>
++        <source src="media/audio.mp3" type="audio/mpeg">
++        Your browser does not support the audio element.
++    </audio>
++    <br><br>
++
++    <h2>3. Video with Controls</h2>
++    <video controls width="300">
++        <source src="media/video.mp4" type="video/mp4">
++        Your browser does not support the video element.
++    </video>
++    <br><br>
++
++    <h2>4. Embedded Educational Video</h2>
++    <iframe width="400" height="250" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="HTML Tutorial" frameborder="0" allowfullscreen></iframe>
++
++</body>
++</html>
+
+commit a1a16d8c5ff288e21ccba9a6684d6ce35559c15d
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:39:08 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:39:08 +0800
+
+    semantic.html
+    
+    task 8
+
+diff --git a/semantic.html b/semantic.html
+index 8b13789..32acdfb 100644
+--- a/semantic.html
++++ b/semantic.html
+@@ -1 +1,40 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Semantic HTML</title>
++</head>
++<body>
+ 
++    <header>
++        <h1>Lab Activity 8: Semantic Elements</h1>
++    </header>
++
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <main>
++        <section>
++            <article>
++                <h2>The Importance of Web Development Skills</h2>
++                <p>Web development is a very important skill in today's digital world. Almost every business, school, and organization needs a website to connect with people online.</p>
++                <p>Learning HTML allows us to build the basic structure of a webpage. As an IT student, mastering these skills is my first step toward creating functional web applications and opening up good career opportunities in the future.</p>
++            </article>
++        </section>
++
++        <aside>
++            <h3>Quick Fact</h3>
++            <p>HTML stands for HyperText Markup Language and it provides the raw structure of a webpage before any design is added.</p>
++        </aside>
++    </main>
++
++    <footer>
++        <p>Created by Michael Jarred K. Samia | BSIT Student</p>
++    </footer>
++
++</body>
++</html>
+
+commit 4ddfd84cf2d80a312e4cc3a6c619a37f13b08335
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:38:08 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:38:08 +0800
+
+    schedule.html
+    
+    task 6
+
+diff --git a/schedule.html b/schedule.html
+index f7ef5d2..4ef8c11 100644
+--- a/schedule.html
++++ b/schedule.html
+@@ -9,7 +9,7 @@
+ 
+     <h1>Lab Activity 6: HTML Tables</h1>
+ 
+-    <h2>My Weekly Class Schedule</h2>
++    <h2>My Web Tech Schedule</h2>
+ 
+     <table border="1">
+         <tr>
+@@ -19,28 +19,26 @@
+             <th>Room</th>
+             <th>Instructor</th>
+         </tr>
++        
+         <tr>
+-            <td rowspan="2">Monday</td>
+-            <td>8:00 AM</td>
+-            <td>Web Development</td>
+-            <td>LAB 1</td>
+-            <td>Instructor A</td>
++            <td rowspan="2">Tuesday & Thursday</td>
++            <td>3:30 - 4:50 PM</td>
++            <td>Web Technologies (Lec)</td>
++            <td>U804</td>
++            <td>Leonard Prim Francis Reyes</td>
+         </tr>
+         <tr>
+-            <td>10:00 AM</td>
+-            <td>Database Systems</td>
+-            <td>LAB 2</td>
+-            <td>Instructor B</td>
+-        </tr>
+-        <tr>
+-            <td colspan="5" align="center">LUNCH BREAK</td>
++            <td>4:50 - 6:10 PM</td>
++            <td>Web Technologies (Lab)</td>
++            <td>M306</td>
++            <td>Leonard Prim Francis Reyes</td>
+         </tr>
++
+         <tr>
+-            <td>Tuesday</td>
+-            <td>1:00 PM</td>
+-            <td>Networking</td>
+-            <td>Room 304</td>
+-            <td>Instructor C</td>
++            <td>Saturday</td>
++            <td>4:50 - 6:10 PM</td>
++            <td colspan="2" align="center">Web Technologies (Lab) in M306</td>
++            <td>Leonard Prim Francis Reyes</td>
+         </tr>
+     </table>
+ 
+
+commit 8a01f780cb46db6d43ae73be24ef5ab2edb33de0
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:34:23 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:34:23 +0800
+
+    registration.html
+    
+    task 7
+
+diff --git a/registration.html b/registration.html
+index 8b13789..1c7b174 100644
+--- a/registration.html
++++ b/registration.html
+@@ -1 +1,71 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Student Registration Form</title>
++</head>
++<body>
+ 
++    <h1>Lab Activity 7: HTML Forms</h1>
++    
++    <h2>Student Registration Form</h2>
++
++    <form action="">
++        
++        <label>Full Name:</label>
++        <input type="text" placeholder="Enter your full name" required>
++        <br><br>
++
++        <label>Student ID:</label>
++        <input type="text" placeholder="Your student ID" maxlength="15" required>
++        <br><br>
++
++        <label>Email:</label>
++        <input type="email" placeholder="example@email.com" required>
++        <br><br>
++
++        <label>Password:</label>
++        <input type="password" minlength="8" required>
++        <br><br>
++
++        <label>Birthday:</label>
++        <input type="date" required>
++        <br><br>
++
++        <label>Gender:</label>
++        <input type="radio" name="gender" value="Male" required> Male
++        <input type="radio" name="gender" value="Female"> Female
++        <br><br>
++
++        <label>Program:</label>
++        <select required>
++            <option value="">Select your program</option>
++            <option value="BSIT">BSIT</option>
++            <option value="BSCS">BSCS</option>
++            <option value="BSMA">BSMA</option>
++        </select>
++        <br><br>
++
++        <label>Hobbies:</label>
++        <input type="checkbox" value="Programming"> Programming
++        <input type="checkbox" value="Gaming"> Gaming
++        <input type="checkbox" value="Skating"> Skating
++        <br><br>
++
++        <label>Address:</label>
++        <input type="text" placeholder="Enter your address" required>
++        <br><br>
++
++        <label>Comments:</label>
++        <br>
++        <textarea rows="4" cols="30" placeholder="Type your comments here..."></textarea>
++        <br><br>
++
++        <button type="submit">Submit</button>
++        <button type="reset">Reset</button>
++
++    </form>
++
++</body>
++</html>
+
+commit 3f08f21f894ba860a00203a4c66a35bab5db8a92
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:32:04 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:32:04 +0800
+
+    schedule.html
+    
+    task 6
+
+diff --git a/schedule.html b/schedule.html
+index 8b13789..f7ef5d2 100644
+--- a/schedule.html
++++ b/schedule.html
+@@ -1 +1,48 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Class Schedule</title>
++</head>
++<body>
+ 
++    <h1>Lab Activity 6: HTML Tables</h1>
++
++    <h2>My Weekly Class Schedule</h2>
++
++    <table border="1">
++        <tr>
++            <th>Day</th>
++            <th>Time</th>
++            <th>Subject</th>
++            <th>Room</th>
++            <th>Instructor</th>
++        </tr>
++        <tr>
++            <td rowspan="2">Monday</td>
++            <td>8:00 AM</td>
++            <td>Web Development</td>
++            <td>LAB 1</td>
++            <td>Instructor A</td>
++        </tr>
++        <tr>
++            <td>10:00 AM</td>
++            <td>Database Systems</td>
++            <td>LAB 2</td>
++            <td>Instructor B</td>
++        </tr>
++        <tr>
++            <td colspan="5" align="center">LUNCH BREAK</td>
++        </tr>
++        <tr>
++            <td>Tuesday</td>
++            <td>1:00 PM</td>
++            <td>Networking</td>
++            <td>Room 304</td>
++            <td>Instructor C</td>
++        </tr>
++    </table>
++
++</body>
++</html>
+
+commit 556191329cef4c92b5691203df47d73e74baca4c
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:30:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:30:40 +0800
+
+    images.html
+    
+    task 5
+
+diff --git a/images.html b/images.html
+index 8b13789..d942ad6 100644
+--- a/images.html
++++ b/images.html
+@@ -1 +1,24 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Images</title>
++</head>
++<body>
+ 
++    <h1>Lab Activity 5: Images</h1>
++
++    <h2>My Profile</h2>
++
++    <a href="index.html">
++        <img src="images/profile.jpg" alt="My Profile Picture" width="250" height="250">
++    </a>
++
++    <h3>Michael Jarred K. Samia</h3>
++    <p>I am a second-year Information Technology student at the University of the Cordilleras.</p>
++
++    <p>Click my picture above to return to my personal page!</p>
++
++</body>
++</html>
+
+commit 536d9a01d131b4c5516e72070ede1f5e9f33ede7
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:29:35 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:29:35 +0800
+
+    links.html
+    
+    task 4
+
+diff --git a/links.html b/links.html
+index 8b13789..29a1584 100644
+--- a/links.html
++++ b/links.html
+@@ -1 +1,37 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Links and Navigation</title>
++</head>
++<body>
+ 
++    <h1>Lab Activity 4: Links and Navigation</h1>
++
++    <h2>Navigation Menu</h2>
++    <nav>
++        <a href="index.html">HOME</a> | 
++        <a href="about.html">ABOUT</a> | 
++        <a href="contact.html">CONTACT</a>
++    </nav>
++
++    <h2>External Links</h2>
++    <ul>
++        <li><a href="https://www.google.com" target="_blank">Google</a></li>
++        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
++        <li><a href="https://github.com" target="_blank">GitHub</a></li>
++        <li><a href="https://www.uc-bcf.edu.ph" target="_blank">My School Website</a></li>
++    </ul>
++
++    <h2>Challenge: Internal Page Jump</h2>
++    <a href="#bottom-section">Jump to the bottom section</a>
++
++    <p>Adding some space here so the jump link actually scrolls down the page...</p>
++    <br><br><br><br><br><br><br><br><br><br><br><br>
++
++    <h2 id="bottom-section">Bottom Section</h2>
++    <p>You successfully jumped to this part of the page.</p>
++
++</body>
++</html>
+
+commit 3562240d83b75084545bde84eff9f801f16346cc
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:28:39 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:28:39 +0800
+
+    lists.html
+    
+    task 3
+
+diff --git a/lists.html b/lists.html
+index f49f828..0cf3f0a 100644
+--- a/lists.html
++++ b/lists.html
+@@ -1,53 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+-<meta charset="UTF-8">
+-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>Lists</title>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Lists</title>
+ </head>
+ <body>
+ 
+-  <h1>Lab Activity 3: Lists</h1>
++    <h1>Lab Activity 3: Lists</h1>
+ 
+-  <h2>Favorite Foods</h2>
+-  <ul>
+-  <li>Pizza</li>
+-  <li>Burger</li>
+-  <li>Fries</li>
+-  <li>Fried Chicken</li>
+-  <li>Pasta</li>
+-  </ul>
+-  
+-  <h2>Top 5 Programming Languages</h2>
+-  <ol>
+-  <li>JavaScript</li>
+-  <li>Python</li>
+-  <li>Java</li>
+-  <li>PHP</li>
+-  <li>C++</li>
+-  </ol>
+-  
+-  <h2>Computer Science Topics</h2>
+-  <ul>
+-  <li>Computer Science
+-  <ul>
+-  <li>Programming
+-  <ul>
+-  <li>Web</li>
+-  <li>Python</li>
+-  <li>C++</li>
+-  </ul>
+-  </li>
+-  <li>Web Development
+-  <ul>
+-  <li>HTML</li>
+-  <li>CSS</li>
+-  <li>JavaScript</li>
+-  </ul>
+-  </li>
+-  </ul>
+-  </li>
+-  </ul>
++    <h2>Favorite Foods</h2>
++    <ul>
++        <li>Pizza</li>
++        <li>Burger</li>
++        <li>Fries</li>
++        <li>Fried Chicken</li>
++        <li>Pasta</li>
++    </ul>
++
++    <h2>Top 5 Programming Languages</h2>
++    <ol>
++        <li>JavaScript</li>
++        <li>Python</li>
++        <li>Java</li>
++        <li>PHP</li>
++        <li>C#</li>
++    </ol>
++
++    <h2>Computer Science</h2>
++    <ul>
++        <li>Programming
++            <ul>
++                <li>Java</li>
++                <li>Python</li>
++                <li>PHP</li>
++            </ul>
++        </li>
++        <li>Web Development
++            <ul>
++                <li>HTML</li>
++                <li>CSS</li>
++                <li>JavaScript</li>
++            </ul>
++        </li>
++    </ul>
+ 
+ </body>
+ </html>
+
+commit 44b3ff5ccc0f968cba5d801534af01f0ae3732fa
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:27:16 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:27:16 +0800
+
+    formatting.html
+    
+    task 2
+
+commit 6e7afcf2714e4596484f342fb549dea89851e049
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:27:00 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:27:00 +0800
+
+    formatting.html
+
+diff --git a/formatting.html b/formatting.html
+index 8b13789..b33b9db 100644
+--- a/formatting.html
++++ b/formatting.html
+@@ -1 +1,26 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>HTML Text Formatting</title>
++</head>
++<body>
+ 
++    <h1>Lab Activity 2: HTML Text Formatting</h1>
++
++    <h2>Formatting Tags</h2>
++    <p>The b tag makes text <b>bold</b> without extra importance.</p>
++    <p><strong>HTML</strong> stands for <em>HyperText Markup Language</em>[cite: 2].</p>
++    <p>The i tag makes text look <i>italicized</i>[cite: 2].</p>
++    <p>The u tag is used to <u>underline</u> a word[cite: 2].</p>
++    <p>Use the mark tag if you want to <mark>highlight</mark> something important[cite: 2].</p>
++    <p>This shows how to write <small>smaller text</small> inside a paragraph[cite: 2].</p>
++    <p>My favorite subject is <del>Math</del> <ins>Programming</ins>[cite: 2].</p>
++
++    <h2>Challenge Expressions</h2>
++    <p>Water: H<sub>2</sub>O[cite: 2]</p>
++    <p>Energy equation: E = mc<sup>2</sup>[cite: 2]</p>
++
++</body>
++</html>
+
+commit 580093744b1511d1221e17682e8f773361c171b3
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-10-26 00:25:40 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-10-26 00:25:40 +0800
+
+    index.html
+    
+    task 1
+
+diff --git a/index.html b/index.html
+index 8b13789..3153e5b 100644
+--- a/index.html
++++ b/index.html
+@@ -1 +1,30 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>My First Web Page</title>
++</head>
++<body>
+ 
++    <h1>MY PERSONAL PAGE</h1>
++
++    <h2>Michael Jarred K. Samia</h2>
++    <p>Bachelor of Science in Information Technology</p>
++
++    <hr>
++
++    <h2>About Me</h2>
++    <p>I am a student interested in web development and learning how to build simple websites using HTML tags.</p>
++    <p>I am currently studying IT and practicing basic programming concepts step by step.</p>
++    <p>My goal is to finish my studies and improve my skills in creating clean and functional web pages.</p>
++
++    <h2>My Hobbies</h2>
++    <p>I enjoy programming, gaming, and outdoor activities like inline skating.</p>
++
++    <hr>
++
++    <p>Thank you for visiting my simple personal webpage!</p>
++
++</body>
++</html>
+
+commit df70c5851b45e06cdc322214ceb248feb917cfcd
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:33:54 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:33:54 +0800
+
+    Update lists.html
+
+diff --git a/lists.html b/lists.html
+index 8b13789..f49f828 100644
+--- a/lists.html
++++ b/lists.html
+@@ -1 +1,53 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++<meta charset="UTF-8">
++<meta name="viewport" content="width=device-width, initial-scale=1.0">
++<title>Lists</title>
++</head>
++<body>
+ 
++  <h1>Lab Activity 3: Lists</h1>
++
++  <h2>Favorite Foods</h2>
++  <ul>
++  <li>Pizza</li>
++  <li>Burger</li>
++  <li>Fries</li>
++  <li>Fried Chicken</li>
++  <li>Pasta</li>
++  </ul>
++  
++  <h2>Top 5 Programming Languages</h2>
++  <ol>
++  <li>JavaScript</li>
++  <li>Python</li>
++  <li>Java</li>
++  <li>PHP</li>
++  <li>C++</li>
++  </ol>
++  
++  <h2>Computer Science Topics</h2>
++  <ul>
++  <li>Computer Science
++  <ul>
++  <li>Programming
++  <ul>
++  <li>Web</li>
++  <li>Python</li>
++  <li>C++</li>
++  </ul>
++  </li>
++  <li>Web Development
++  <ul>
++  <li>HTML</li>
++  <li>CSS</li>
++  <li>JavaScript</li>
++  </ul>
++  </li>
++  </ul>
++  </li>
++  </ul>
++
++</body>
++</html>
+
+commit 537865c4f286c4a349ed13e7e0f6024b4ef926ec
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:27:51 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:27:51 +0800
+
+    Create .gitkeep
+
+diff --git a/media/.gitkeep b/media/.gitkeep
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/media/.gitkeep
+@@ -0,0 +1 @@
++
+
+commit ac4a5ccdb229410f0798ba3dd2f2cf392f91fcd5
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:27:09 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:27:09 +0800
+
+    Rename pages.gitkeep to pages/.gitkeep
+
+diff --git a/pages.gitkeep b/pages/.gitkeep
+similarity index 100%
+rename from pages.gitkeep
+rename to pages/.gitkeep
+
+commit a36cde5934ab9a0679a8833b538d80cdc52de16d
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:26:05 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:26:05 +0800
+
+    Rename media.gitkeep to images/.gitkeep
+
+diff --git a/media.gitkeep b/images/.gitkeep
+similarity index 100%
+rename from media.gitkeep
+rename to images/.gitkeep
+
+commit 53c2dc02ea2ce86096ca9d3439aa083454ff8524
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:23:31 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:23:31 +0800
+
+    Create pages.gitkeep
+
+diff --git a/pages.gitkeep b/pages.gitkeep
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/pages.gitkeep
+@@ -0,0 +1 @@
++
+
+commit 0f3778c822b6650abb0d780547c841177d842a32
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:22:51 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:22:51 +0800
+
+    Rename images.gitkeep to media.gitkeep
+
+diff --git a/images.gitkeep b/media.gitkeep
+similarity index 100%
+rename from images.gitkeep
+rename to media.gitkeep
+
+commit df10ec26404cd2f2c2016fa19dd0b1138639dab4
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:22:02 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:22:02 +0800
+
+    images.gitkeep
+
+diff --git a/images.gitkeep b/images.gitkeep
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/images.gitkeep
+@@ -0,0 +1 @@
++
+
+commit 05f2ddd81173f80f666b0212071f0d521f1faec5
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:15:34 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:15:34 +0800
+
+    multimedia.html
+
+diff --git a/multimedia.html b/multimedia.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/multimedia.html
+@@ -0,0 +1 @@
++
+
+commit 381f5d1d42778959a3ba43fdb1385e3d98c042ce
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:15:20 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:15:20 +0800
+
+    semantic.html
+
+diff --git a/semantic.html b/semantic.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/semantic.html
+@@ -0,0 +1 @@
++
+
+commit 68e00788969b680cf70cb720db86c22ef6f84bcf
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:15:02 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:15:02 +0800
+
+    registration.html
+
+diff --git a/registration.html b/registration.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/registration.html
+@@ -0,0 +1 @@
++
+
+commit 66ae95d201360ba64b3171046d4c4c988e1a02f3
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:14:44 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:14:44 +0800
+
+    schedule.html
+
+diff --git a/schedule.html b/schedule.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/schedule.html
+@@ -0,0 +1 @@
++
+
+commit 2f86920a0201bd559aca5df7744e7d23fcb5cd77
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:14:21 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:14:21 +0800
+
+    images.html
+
+diff --git a/images.html b/images.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/images.html
+@@ -0,0 +1 @@
++
+
+commit a98a881cf47c9d5d9d6df710d9620bc471362769
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:13:41 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:13:41 +0800
+
+    links.html
+
+diff --git a/links.html b/links.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/links.html
+@@ -0,0 +1 @@
++
+
+commit 14173ea8faf60831a949b0fa164bdc5f3c932881
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:08:19 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:08:19 +0800
+
+    formatting.html
+
+diff --git a/formatting.html b/formatting.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/formatting.html
+@@ -0,0 +1 @@
++
+
+commit 895ea9f0d53479c2911f2318e278fa47958c4a09
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:07:42 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:07:42 +0800
+
+    lists.html
+
+diff --git a/lists.html b/lists.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/lists.html
+@@ -0,0 +1 @@
++
+
+commit 9cb02aebec13138949b283828283d3669a0f408d
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:07:20 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:07:20 +0800
+
+    index.html
+
+commit f92f50898e9fe26f941aa60f94a6020e0fad01cc
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:07:03 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:07:03 +0800
+
+    Update README.md
+
+diff --git a/README.md b/README.md
+index 28ecc82..8b13789 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1 @@
+-# WebTech
+-Projects, lab exercises, and web development resources for BSIT Web Technology coursework.
++
+
+commit bf9fb9702c0f26c73e9cea080ffe5c4866a18224
+Author:     Michael Jarred <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:06:46 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:06:46 +0800
+
+    Update LICENSE
+
+diff --git a/LICENSE b/LICENSE
+index 8edfdbd..8b13789 100644
+--- a/LICENSE
++++ b/LICENSE
+@@ -1,21 +1 @@
+-MIT License
+ 
+-Copyright (c) 2026 michaelsamia
+-
+-Permission is hereby granted, free of charge, to any person obtaining a copy
+-of this software and associated documentation files (the "Software"), to deal
+-in the Software without restriction, including without limitation the rights
+-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+-copies of the Software, and to permit persons to whom the Software is
+-furnished to do so, subject to the following conditions:
+-
+-The above copyright notice and this permission notice shall be included in all
+-copies or substantial portions of the Software.
+-
+-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+-SOFTWARE.
+
+commit b173c113c327fbcfe2feb0ce998d35a5911b854d
+Author:     michaelsamia <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-22 17:02:30 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-22 17:02:30 +0800
+
+    Create index.html
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..8b13789
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1 @@
++
+
+commit fd5df444c1e984bf3724a0ad1dee413999fc6b82
+Author:     michaelsamia <83494357+michaelsamia@users.noreply.github.com>
+AuthorDate: 2026-09-15 17:05:49 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: 2026-09-15 17:05:49 +0800
+
+    Initial commit
+
+diff --git a/LICENSE b/LICENSE
+new file mode 100644
+index 0000000..8edfdbd
+--- /dev/null
++++ b/LICENSE
+@@ -0,0 +1,21 @@
++MIT License
++
++Copyright (c) 2026 michaelsamia
++
++Permission is hereby granted, free of charge, to any person obtaining a copy
++of this software and associated documentation files (the "Software"), to deal
++in the Software without restriction, including without limitation the rights
++to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
++copies of the Software, and to permit persons to whom the Software is
++furnished to do so, subject to the following conditions:
++
++The above copyright notice and this permission notice shall be included in all
++copies or substantial portions of the Software.
++
++THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
++IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
++FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
++AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
++LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
++OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
++SOFTWARE.
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..28ecc82
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# WebTech
++Projects, lab exercises, and web development resources for BSIT Web Technology coursework.
